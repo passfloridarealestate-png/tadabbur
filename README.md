@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Tadabbur — Landing Page
+
+Marketing website for [Tadabbur](https://github.com/taukheer/Tadabbur), a daily Quranic contemplation app.
+
+**One Ayah. Every Day. For Life.**
+
+## Tech Stack
+
+- **Next.js 16** + React 19
+- **Tailwind CSS** v4
+- **Framer Motion** for scroll animations
+- **next/font** — Inter + Amiri (Arabic)
+- Fully static — prerendered at build time
+
+## Sections
+
+| Section | Description |
+|---|---|
+| Hero | Bismillah calligraphy, headline, download CTAs |
+| Features | Daily Ayah, 3-Tier Reflection, Journal, Streaks |
+| How It Works | 3-step alternating layout with connecting line |
+| Reflection Tiers | Detailed showcase of Acknowledge / Respond / Reflect |
+| Verse Preview | Realistic mockup of Al-Fatiha 1:1 |
+| Stats | 6,236 verses, 21 languages, 3 tiers |
+| Download CTA | App Store + Google Play badges |
+| Footer | Links, QF Hackathon badge |
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+```
 
-## Learn More
+## Deploy
 
-To learn more about Next.js, take a look at the following resources:
+Push to GitHub and connect to [Vercel](https://vercel.com) for automatic deployments.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Design
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Sacred dark theme (#050A14) with gold accents (#C9A96E)
+- CSS starfield background with twinkling animation
+- Geometric diamond dividers between sections
+- Server Components by default, client JS only for navbar + scroll reveals
+- Full SEO metadata and Open Graph tags
 
-## Deploy on Vercel
+## Related
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [Tadabbur Mobile App](https://github.com/taukheer/Tadabbur) — Flutter app (iOS + Android)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+
+Built for the Quran Foundation Hackathon 2026.
