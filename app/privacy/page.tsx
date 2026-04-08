@@ -220,10 +220,10 @@ export default function PrivacyPage() {
             </p>
             <p className="mt-4">
               <a
-                href="mailto:taukheermohammed@gmail.com"
+                href="mailto:thetadabburapp@gmail.com"
                 className="text-gold hover:underline"
               >
-                taukheermohammed@gmail.com
+                thetadabburapp@gmail.com
               </a>
             </p>
           </section>
