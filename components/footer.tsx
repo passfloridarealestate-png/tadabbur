@@ -59,13 +59,21 @@ export default function Footer() {
 
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-text-muted text-xs">
           <p>&copy; {new Date().getFullYear()} Tadabbur. All rights reserved.</p>
-          <p className="flex items-center gap-1">
-            Made with
-            <span className="text-gold mx-0.5" aria-label="love">
-              &#9829;
-            </span>
-            for the Ummah
-          </p>
+          <div className="flex items-center gap-6">
+            <a
+              href="/privacy"
+              className="hover:text-gold transition-colors"
+            >
+              Privacy Policy
+            </a>
+            <p className="flex items-center gap-1">
+              Made with
+              <span className="text-gold mx-0.5" aria-label="love">
+                &#9829;
+              </span>
+              for the Ummah
+            </p>
+          </div>
         </div>
       </div>
     </footer>
