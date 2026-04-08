@@ -1,5 +1,7 @@
 # Tadabbur — Landing Page
 
+**Live:** [tadabbur-beige.vercel.app](https://tadabbur-beige.vercel.app/)
+
 Marketing website for [Tadabbur](https://github.com/taukheer/Tadabbur), a daily Quranic contemplation app.
 
 **One Ayah. Every Day. For Life.**
