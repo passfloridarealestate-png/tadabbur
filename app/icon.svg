@@ -1,0 +1,10 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C9A96E"/>
+      <stop offset="100%" stop-color="#A68B4B"/>
+    </linearGradient>
+  </defs>
+  <rect width="32" height="32" rx="7" fill="url(#goldGrad)"/>
+  <text x="16" y="17" font-family="'Amiri', 'Traditional Arabic', 'Geeza Pro', serif" font-size="22" font-weight="700" fill="#050A14" text-anchor="middle" dominant-baseline="central">ت</text>
+</svg>
