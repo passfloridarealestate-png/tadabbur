@@ -3,7 +3,7 @@ import ScrollReveal from "./scroll-reveal";
 
 const stats = [
   { value: "6,236", label: "Verses to contemplate", suffix: "" },
-  { value: "21", label: "Languages supported", suffix: "" },
+  { value: "19", label: "Languages supported", suffix: "" },
   { value: "3", label: "Reflection tiers", suffix: "" },
   { value: "∞", label: "Room for growth", suffix: "" },
 ];
