@@ -23,7 +23,7 @@ Marketing website for [Tadabbur](https://github.com/taukheer/Tadabbur), a daily 
 | How It Works | 3-step alternating layout with connecting line |
 | Reflection Tiers | Detailed showcase of Acknowledge / Respond / Reflect |
 | Verse Preview | Realistic mockup of Al-Fatiha 1:1 |
-| Stats | 6,236 verses, 21 languages, 3 tiers |
+| Stats | 6,236 verses, 19 languages, 3 tiers |
 | Download CTA | App Store + Google Play badges |
 | Footer | Links, QF Hackathon badge |
 
