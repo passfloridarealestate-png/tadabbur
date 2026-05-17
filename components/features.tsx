@@ -11,7 +11,7 @@ const features = [
     ),
     title: "Daily Ayah",
     description:
-      "One verse delivered each morning with Arabic text, translation, audio recitation, and word-by-word breakdown.",
+      "One verse each morning with Arabic text, translation in 19 languages, transliteration, word-by-word breakdown, and audio from seven world-renowned reciters.",
     accent: "from-[#6BA3BE] to-[#4A7FBF]",
   },
   {
@@ -23,8 +23,19 @@ const features = [
     ),
     title: "3-Tier Reflection",
     description:
-      "A guided writing system: acknowledge the verse, respond with personal connection, then reflect with deep contemplation.",
+      "A guided writing system: acknowledge the verse with one tap, respond with a personal connection, or reflect with deep contemplation — never all-or-nothing.",
     accent: "from-[#C9A96E] to-[#A68B4B]",
+  },
+  {
+    icon: (
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+      </svg>
+    ),
+    title: "Feelings",
+    description:
+      "When life is hard, find a verse meant for this moment. Ninety curated ayat across nine emotional states — from anxiety to gratitude — each with audio and context.",
+    accent: "from-[#D88FA8] to-[#B86A86]",
   },
   {
     icon: (
@@ -34,7 +45,7 @@ const features = [
     ),
     title: "Personal Journal",
     description:
-      "Every reflection is saved to a searchable archive. Track your journey by surah, by day, or by tier.",
+      "Every reflection saved to a private, searchable archive. Activity heatmap, group by surah or day, pin the entries that matter, and share your year-in-ayat.",
     accent: "from-[#9B7FD4] to-[#7B5FB4]",
   },
   {
@@ -45,8 +56,20 @@ const features = [
     ),
     title: "Streaks & Growth",
     description:
-      "Build consistency with daily streaks, milestone celebrations, and progress tracking across your Quran journey.",
+      "Daily streaks with three forgiving freezes that absorb the days life gets in the way. Milestone celebrations at days 3, 7, 14, 30, 100, and 365.",
     accent: "from-[#E8956A] to-[#D4724A]",
+  },
+  {
+    icon: (
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+        <rect x="5" y="2" width="14" height="20" rx="2" />
+        <line x1="12" y1="18" x2="12.01" y2="18" />
+      </svg>
+    ),
+    title: "Widget & Reminders",
+    description:
+      "Today's ayah on your home screen, plus a gentle morning notification at a time you choose. Glance, recite, and return — no need to open the app.",
+    accent: "from-[#6ECB9F] to-[#4AAF80]",
   },
 ];
 
@@ -71,7 +94,7 @@ export default function Features() {
           </div>
         </ScrollReveal>
 
-        <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {features.map((feature) => (
             <StaggerItem key={feature.title}>
               <div className="card-sacred p-8 h-full group">
