@@ -3,9 +3,9 @@ import ScrollReveal from "./scroll-reveal";
 const steps = [
   {
     number: "01",
-    title: "Wake up to your verse",
+    title: "Choose where to begin",
     description:
-      "Each morning, receive a new ayah with Arabic text, professional audio recitation, and a translation in your language.",
+      "Start at Al-Fatiha or pick any of the 114 surahs as your day-one verse. Each morning, the next ayah arrives — Arabic, audio recitation, and a translation in your language.",
     icon: (
       <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <circle cx="12" cy="12" r="4" />
