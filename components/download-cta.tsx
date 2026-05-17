@@ -39,7 +39,7 @@ export default function DownloadCTA() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
             {/* App Store */}
             <a
-              href="https://apps.apple.com/in/app/tadabbur-one-ayah-a-day/id6766132608"
+              href="https://apps.apple.com/app/tadabbur-one-ayah-a-day/id6766132608"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center gap-3 bg-bg-card border border-border-card rounded-2xl px-6 py-4 hover:border-gold/30 hover:shadow-lg transition-all duration-300"
