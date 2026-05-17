@@ -4,8 +4,8 @@ import ScrollReveal from "./scroll-reveal";
 const stats = [
   { value: "6,236", label: "Verses to contemplate", suffix: "" },
   { value: "19", label: "Languages supported", suffix: "" },
-  { value: "3", label: "Reflection tiers", suffix: "" },
-  { value: "∞", label: "Room for growth", suffix: "" },
+  { value: "7", label: "World-renowned reciters", suffix: "" },
+  { value: "300", label: "Tafsir summaries bundled", suffix: "+" },
 ];
 
 export default function Stats() {
